@@ -15,6 +15,12 @@ main{
     width: 250px;
     height: 250px;
     object-fit: cover;
+    transition: 600ms;
+}
+
+.img-circular:hover{
+    transform: scale(1.1);
+    transition: 600ms;
 }
 
 @media (min-width: 768px) and (max-width: 1199px){
