@@ -29,6 +29,11 @@ main{
     object-fit: cover;
 }
 
+.img-card-recetas{
+    height: 300px;
+    object-fit: cover;
+}
+
 @media (min-width: 768px) and (max-width: 1199px){
     .img-circular{
         width: 200px;
