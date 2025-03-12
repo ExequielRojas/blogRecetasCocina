@@ -40,6 +40,12 @@ main{
     object-fit: cover;
 }
 
+.img-error404{
+    height: 600px;
+    width: 600px;
+    object-fit: cover;
+}
+
 textarea{
     resize: none;
 }
@@ -48,5 +54,19 @@ textarea{
     .img-circular{
         width: 200px;
         height: 200px;
+    }
+}
+
+@media (min-width: 390px) and (max-width: 600px){
+    .img-error404{
+        height: 500px;
+        width: 420px;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 390px){
+    .img-error404{
+        height: 350px;
+        width: 350px;
     }
 }
